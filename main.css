@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav>a.logo{
+    display: inline;
+} 
+nav>ul{
+    float: left;
+}
+.container{
+    position: relative;
+}
+.subscribe{
+    background-color: blue;
+
+}
+.grid-container {
+    position: absolute;
+    width: 80%;
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 70px 160px 155px;
+    grid-gap: 15px;
+    background-color: #dff0ff;
+    padding: 20px 130px 5px 40px;
+    right: 100px;
+    border-radius: 2em;
+    top: 1000px;
+    }
+    
+  
+.grid-container > div {
+    
+    text-align: center;
+    padding: 20px 0;
+    
+  }
+.mid > h1{
+    text-align: center;
+    
+}
+
+.mid > div{
+    width: 100%;
+    height: 150vh;
+    position: absolute;
+}
+.founder{
+   right: 1000px;
+}
+.freelancer{
+    position:absolute;
+}
+.Entusiast{
+    position:absolute;
+}
